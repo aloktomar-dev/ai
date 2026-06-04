@@ -141,7 +141,7 @@ He does not blink.
 **VISUAL**:
 A valley. At war's edge. Night. Fires burning.
 
-**RAKTASUR** stands alone on a rock — elevated, overlooking his army below. Thousands of warriors, their torches like a river of fire in the darkness. He does not look at them. He looks at the mountains. His massive frame: skull-adorned armor, red wolf-fur cape snapping in the wind. The diamond rune carved into his forehead catches firelight. His face is still. Utterly calm.
+**RAKTASUR** stands alone on a rock — elevated, overlooking his army below. Thousands of warriors, their torches like a river of fire in the darkness. Behind them: **blood-red banners everywhere — spiked, skull-hung, aggressive. Visual noise. Power made visible.** He does not look at them. He looks at the mountains. His massive frame: skull-adorned armor, red wolf-fur cape snapping in the wind. The diamond rune carved into his forehead catches firelight. His face is still. Utterly calm. The contrast is deliberate — his army is loud. He is silence.
 
 Then — close-up. His eyes. **Blue.** The same shade as Rudhra's.
 
@@ -315,14 +315,18 @@ He doesn't fall dramatically. He just... stops. His laugh stops. He looks down. 
 **Shot Type**: EXTREME WIDE — slow motion
 
 **VISUAL**:
-The glacier pass. A blizzard. Two armies clash. SLOW MOTION — 25% speed. Trishul-flags snap in the storm. Spears and ice. Warriors collide like two waves. The scale is biblical.
+The glacier pass. A blizzard. Two armies clash. SLOW MOTION — 25% speed. Spears and ice. Warriors collide like two waves. The scale is biblical.
+
+**BANNER RULE — APPLIED HERE:**
+- **HAIMAVAT side** (left): plain black torn cloth banners — three ash lines + one red dot. Nothing else. Quiet. Iconic.
+- **ASHVAGHOR side** (right): blood-red banners with iron spikes and skull symbols — loud, aggressive, visual noise.
 
 **CAMERA**: Wide, slightly elevated — God's view. The armies are two colors: white-ash Haimavat warriors and dark-armored Ashvaghor. The collision point is center frame.
 **LIGHTING**: Harsh backlight — the blizzard creates a white wall behind the battle. Warriors are silhouettes in the chaos.
 **SOUND**: Music HITS. Full orchestral war score.
 
 **AI IMAGE PROMPT**:
-`Epic Ice Age battle scene, two massive armies clashing on a glacier mountain pass in a blizzard, slow motion effect, Trishul flags in the storm, warriors silhouetted against white blizzard backlight, one army in white ash armor one in dark skull armor, cinematic 300-movie style, extreme wide shot elevated angle, photorealistic --ar 16:9 --q 2 --style raw`
+`Epic Ice Age battle scene, two massive armies clashing on a glacier mountain pass in a blizzard, slow motion effect, LEFT ARMY: white ash warriors carrying plain black torn cloth banners with simple three horizontal lines and red dot — minimal and sacred, RIGHT ARMY: dark skull-armored warriors carrying blood-red banners with iron spikes and skull symbols — loud and aggressive, warriors silhouetted against white blizzard backlight, cinematic 300-movie style, extreme wide shot elevated angle, photorealistic --ar 16:9 --q 2 --style raw`
 
 ---
 
@@ -348,7 +352,7 @@ Rudhra fighting — aggressive, fast, relentless. The stone axe carving through 
 Raktasur on horseback. The only warrior on a horse. SLOW MOTION — he rides through the battle, his red cape catching the blizzard. Enemies scatter. He does not hurry. He does not need to.
 
 **AI IMAGE PROMPT**:
-`Massive tattooed warlord on horseback riding through battle slow motion, dark red wolf fur cape billowing, skull armor, diamond rune forehead, enemies scattering, blizzard and torchlight, low angle dramatic, 12000 BCE Himalayan war, cinematic --ar 16:9 --q 2 --style raw`
+`Massive tattooed warlord on horseback riding through battle slow motion, dark red wolf fur cape billowing, skull armor, diamond rune forehead, enemies scattering, blood-red spiked Ashvaghor banners in background, blizzard and torchlight, low angle dramatic, 12000 BCE Himalayan war, cinematic --ar 16:9 --q 2 --style raw`
 
 ---
 
