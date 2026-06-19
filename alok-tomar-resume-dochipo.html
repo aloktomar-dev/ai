@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alok Tomar – Front-end Developer Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13px;
+    color: #222;
+    background: #fff;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  /* HEADER */
+  .header {
+    background: #1a2a4a;
+    color: #fff;
+    padding: 28px 36px 22px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .header .subtitle {
+    color: #6eaad4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .header .contact {
+    font-size: 12.5px;
+    color: #ccc;
+    letter-spacing: 0.2px;
+  }
+  .header .contact span {
+    margin-right: 14px;
+  }
+
+  /* BODY */
+  .body {
+    padding: 24px 36px 36px;
+  }
+
+  /* SECTION */
+  .section {
+    margin-bottom: 22px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a2a4a;
+    border-bottom: 2px solid #1a2a4a;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+  }
+
+  /* SUMMARY */
+  .summary p {
+    line-height: 1.65;
+    color: #333;
+  }
+
+  /* EXPERIENCE */
+  .job {
+    margin-bottom: 18px;
+  }
+  .job-header {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .job-title {
+    font-weight: 700;
+    font-size: 13.5px;
+    color: #1a5fa8;
+  }
+  .job-company {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+  }
+  .job-meta {
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .job ul {
+    list-style: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #333;
+  }
+  .job ul li {
+    margin-bottom: 3px;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    line-height: 1.75;
+  }
+  .skills-grid p {
+    margin-bottom: 2px;
+  }
+  .skills-grid strong {
+    color: #1a2a4a;
+  }
+
+  /* EDUCATION */
+  .edu-item {
+    margin-bottom: 4px;
+    line-height: 1.6;
+  }
+  .edu-item strong {
+    color: #1a2a4a;
+  }
+  .edu-item .edu-meta {
+    color: #888;
+    font-style: italic;
+  }
+
+  /* PORTFOLIO */
+  .portfolio-grid {
+    line-height: 1.75;
+  }
+  .portfolio-grid p {
+    margin-bottom: 2px;
+  }
+  .portfolio-grid strong {
+    color: #1a2a4a;
+  }
+
+  /* FOOTER */
+  .footer {
+    border-top: 1px solid #ddd;
+    margin-top: 24px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 11.5px;
+    color: #888;
+  }
+
+  /* PRINT */
+  @media print {
+    body { max-width: 100%; }
+    .header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>ALOK TOMAR</h1>
+  <div class="subtitle">Front-end Developer &nbsp;·&nbsp; React.js &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; HTML/CSS &nbsp;·&nbsp; 9+ Years</div>
+  <div class="contact">
+    <span>aloktomar.dev@gmail.com</span>
+    <span>|</span>
+    <span>8272831603</span>
+    <span>|</span>
+    <span>Dehradun, Uttarakhand, India</span>
+    <span>|</span>
+    <span>Open to Remote</span>
+  </div>
+</div>
+
+<div class="body">
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section summary">
+    <div class="section-title">Professional Summary</div>
+    <p>
+      Front-end Developer with 9+ years of experience building responsive, high-performance web and mobile interfaces.
+      Deep expertise in React.js including component architecture, state management (Redux, Context API), and DOM manipulation.
+      Proficient in JavaScript (ES6+), HTML5, CSS3, and SVG-based UI development. Proven track record converting
+      wireframes and design mockups into intuitive, pixel-perfect user interfaces. Experienced with RESTful API
+      integrations, CDN and caching-driven performance optimization, and building scalable front-end component libraries.
+      Actively participates in design and code reviews to maintain engineering quality.
+    </p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- Job 1 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Sr. Front-end Developer</span>
+        <span>·</span>
+        <span class="job-company">Apexure India</span>
+        <span>·</span>
+        <span class="job-company">Remote</span>
+        <span class="job-meta">Sep 2024 – Present</span>
+      </div>
+      <ul>
+        <li>Built and maintained reusable React.js component libraries and front-end module systems consumed across multiple projects</li>
+        <li>Converted UI wireframes and Figma designs into pixel-perfect, intuitive React interfaces with responsive layouts</li>
+        <li>Implemented state management solutions using React Context API and Redux for complex, data-driven application states</li>
+        <li>Worked extensively with SVGs — inline SVG animations, icon systems, and dynamic SVG manipulation via JavaScript</li>
+        <li>Optimized front-end performance using CDN strategies, HTTP caching, lazy loading, and code splitting — achieving significant Core Web Vitals improvements</li>
+        <li>Integrated RESTful APIs to build dynamic, data-driven UIs with clean separation of concerns</li>
+        <li>Actively participated in architecture discussions, design reviews, and code reviews to uphold quality standards</li>
+        <li>Leveraged AI tools (Claude, Cursor, ChatGPT) to accelerate development and reduce project delivery time</li>
+      </ul>
+    </div>
+
+    <!-- Job 2 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Front-end Developer</span>
+        <span>·</span>
+        <span class="job-company">MounTech Solutions</span>
+        <span>·</span>
+        <span class="job-company">Remote</span>
+        <span class="job-meta">Oct 2020 – Sep 2024</span>
+      </div>
+      <ul>
+        <li>Built React.js applications with reusable component architecture across diverse client projects</li>
+        <li>Implemented state management using Context API and Redux to handle complex UI interaction flows</li>
+        <li>Performed direct DOM manipulation using JavaScript object model for dynamic, interactive experiences</li>
+        <li>Developed and integrated SVG-based graphics, icon sets, and animations for enhanced visual interfaces</li>
+        <li>Translated Figma/PSD mockups into fully functional, cross-browser-compatible web interfaces</li>
+        <li>Integrated third-party RESTful APIs — CRMs, payment gateways, and marketing platforms — into front-end layers</li>
+        <li>Implemented responsive designs using HTML5, CSS3, SASS, Bootstrap, and CSS Grid for web and mobile experiences</li>
+        <li>Applied performance optimization techniques including CDN configuration, browser caching, and image optimization</li>
+      </ul>
+    </div>
+
+    <!-- Job 3 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Front-end Developer</span>
+        <span>·</span>
+        <span class="job-company">Apexure</span>
+        <span>·</span>
+        <span class="job-company">Freelance</span>
+        <span class="job-meta">Oct 2019 – Oct 2020</span>
+      </div>
+      <ul>
+        <li>Delivered responsive web interfaces for client projects with a focus on React.js component development</li>
+        <li>Consumed RESTful APIs to build dynamic, data-driven web experiences end-to-end</li>
+        <li>Developed custom UI components and landing pages optimised for performance and responsiveness</li>
+        <li>Managed client communication, project scoping, and end-to-end delivery independently</li>
+      </ul>
+    </div>
+
+    <!-- Job 4 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Frontend Web Developer</span>
+        <span>·</span>
+        <span class="job-company">Built by Blank</span>
+        <span class="job-meta">Jan 2017 – Oct 2019</span>
+      </div>
+      <ul>
+        <li>Translated Figma/PSD designs into responsive, pixel-perfect interfaces using HTML5, CSS3, and JavaScript</li>
+        <li>Built interactive UI features with JavaScript DOM manipulation and event-driven programming</li>
+        <li>Developed reusable UI components and frontend modules for scalable, maintainable web projects</li>
+        <li>Ensured cross-browser compatibility and mobile responsiveness across all delivered interfaces</li>
+        <li>Used Chrome DevTools and Firebug for debugging, testing, and performance profiling</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <p><strong>React.js:</strong> Component Architecture, React Hooks, State Management (Redux, Context API), React Router, JSX, Reusable Component Libraries</p>
+      <p><strong>JavaScript:</strong> ES6+, DOM Manipulation, JavaScript Object Model, Async/Await, Promises, Event Handling</p>
+      <p><strong>HTML / CSS:</strong> HTML5, CSS3, SASS/SCSS, CSS Grid, Flexbox, Bootstrap, Responsive &amp; Mobile-First Design</p>
+      <p><strong>SVG:</strong> Inline SVG, Dynamic SVG Manipulation, SVG Animations, Icon Systems</p>
+      <p><strong>APIs:</strong> RESTful APIs (JSON/XML), 3rd Party Integrations, Fetch / Axios</p>
+      <p><strong>Performance:</strong> CDN, Browser Caching, Lazy Loading, Code Splitting, Core Web Vitals, Page Speed Optimization</p>
+      <p><strong>Tools:</strong> Git, Figma, Chrome DevTools, VS Code, AI Tools (Claude, ChatGPT, Cursor)</p>
+      <p><strong>Also:</strong> WordPress, Shopify (Liquid), Webflow, PHP, MySQL, WooCommerce</p>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <strong>MCA – Master of Computer Applications</strong>
+      <span class="edu-meta"> · SGRR Institute of Technology &amp; Science, Dehradun · 2014</span>
+    </div>
+    <div class="edu-item">
+      <strong>BSc (IT) – Bachelor of Science in Information Technology</strong>
+      <span class="edu-meta"> · ITM College, Dehradun · 2011</span>
+    </div>
+    <div class="edu-item">
+      <strong>12th – Intermediate</strong>
+      <span class="edu-meta"> · Hindu National Inter College, Dehradun · 2008</span>
+    </div>
+    <div class="edu-item">
+      <strong>10th – High School</strong>
+      <span class="edu-meta"> · Hindu National Inter College, Dehradun · 2006</span>
+    </div>
+  </div>
+
+  <!-- SELECTED PORTFOLIO -->
+  <div class="section">
+    <div class="section-title">Selected Portfolio</div>
+    <div class="portfolio-grid">
+      <p><strong>WordPress:</strong> rrbeachclub.com &nbsp;·&nbsp; eenmedia.nl</p>
+      <p><strong>Shopify:</strong> health-ade.com &nbsp;·&nbsp; cadenceotc.com &nbsp;·&nbsp; decorhousefurniture.com &nbsp;·&nbsp; goslingslimited.com &nbsp;·&nbsp; 100calsnacks.com</p>
+      <p><strong>Webflow:</strong> amplisell.com</p>
+      <p><strong>Kajabi:</strong> academy.optionsgoddess.com</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Alok Tomar &nbsp;·&nbsp; aloktomar.dev@gmail.com &nbsp;·&nbsp; 8272831603 &nbsp;·&nbsp; Dehradun, Uttarakhand, India
+  </div>
+
+</div>
+</body>
+</html>
